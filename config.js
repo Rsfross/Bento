@@ -12,9 +12,9 @@ const CONFIG = {
 
 	// General
 	name: 'Ryan',
-	imageBackground: false,
+	imageBackground: true,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning,',
@@ -31,7 +31,7 @@ const CONFIG = {
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '39.854',
 	defaultLongitude: '-86.019',
 
@@ -73,7 +73,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://calendar.proton.me/u/0/',
 		},
 		{
 			id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'shield-plus',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '365 Admin',
+					link: 'https://admin.microsoft.com/?auth_upn=rfross%40usiconsultants.com&source=applauncher#/homepage',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Exchange Admin',
+					link: 'https://admin.exchange.microsoft.com/#/homepage',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Sharepoint Admin',
+					link: 'https://usiconsultants-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/home',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Entra Admin',
+					link: 'https://entra.microsoft.com/#home',
 				},
 			],
 		},
@@ -165,16 +165,16 @@ const CONFIG = {
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'CompTIA',
+					link: 'https://officialcomptiastudyguides.webreader.io/#!/library',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Project University',
+					link: 'https://usiconsultants.sharepoint.com/teams/ContinuingEducation/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Staples',
+					link: 'https://www.staplesadvantage.com/sahome?action=&from=httpdconf-sm&fromWhere=rmbrMe&routeType=sba&onLoad=hideMessage',
 				},
 			],
 		},
